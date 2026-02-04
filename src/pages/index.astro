@@ -33,49 +33,67 @@ const work = await Promise.all(
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
     <h4 class="animate font-semibold text-black dark:text-white">
-      Hi, I'm Nano <span class="text-xl">👋🏻</span> 
+      Hi, I'm Marta. <span class="text-xl">👋</span> 
     </h4>
     <div class="space-y-16">
       <section>
         <article class="space-y-4">
           <p class="animate">
-            I am a minimal, seo friendly, accessible portfolio and blog for developers. 
-            I am an even more lightweight version of my popular theme
-            <Link href="https://github.com/markhorn-dev/astro-sphere" aria-label="Astro Sphere on Github" external>
-              Astro Sphere
-            </Link>.
-            I have a lighthouse scores of 100 across the board for performance, 
-            accesibility, best practices and SEO.
+            I am a software developer with a background in journalism and creative writing, 
+            currently focused on multiplatform application development. I work mainly with 
+            Kotlin, Java, Python and Android technologies, building clean, structured and 
+            maintainable applications.
           </p>
+
           <p class="animate">
-            I come packed with full type safety, a sitemap, an rss feed, markdown 
-            and mdx support (use components in your markdown) through astro integrations.
-            I am styled with tailwind and come preconfigured with light, dark and 
-            system/os theme preferences out of the box.
+            My experience combines native Android development, object-oriented programming 
+            and modern architectural patterns such as MVVM. I’m especially interested 
+            in well-documented code, clear requirements and projects where software design 
+            and problem-solving really matter.
           </p>
+
           <p class="animate">
-            Visit
-            <Link href="https://github.com/markhorn-dev/astro-nano" aria-label="Astro Nano on Github" external>
-              Astro Nano on Github
-            </Link>
-            to fork the repository, read the docs or one-click deploy on Vercel or Netlify. 
+            I’m currently open to learning opportunities and internships, where I can grow as a 
+            developer while contributing to real, impactful projects in collaborative and 
+            international environments.
           </p>
+
         </article>
       </section>
 
+      {SHOW_LATEST_POSTS && (
+        <section class="animate space-y-6">
+          <div class="flex flex-wrap gap-y-2 items-center justify-between">
+            <h5 class="font-semibold text-black dark:text-white">
+              Latest posts
+            </h5>
+            <Link href="/blog">
+              See all posts
+            </Link>
+          </div>
+          <ul class="flex flex-col gap-4">
+            {blog.map(post => (
+              <li>
+                <ArrowCard entry={post} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}  
+      
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
-            Latest posts
+            Recent projects
           </h5>
-          <Link href="/blog">
-            See all posts
+          <Link href="/projects">
+            See all projects
           </Link>
         </div>
         <ul class="flex flex-col gap-4">
-          {blog.map(post => (
+          {projects.map(project => (
             <li>
-              <ArrowCard entry={post} />
+              <ArrowCard entry={project} />
             </li>
           ))}
         </ul>
@@ -110,32 +128,13 @@ const work = await Promise.all(
         </ul>
       </section>
 
-      <section class="animate space-y-6">
-        <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
-            Recent projects
-          </h5>
-          <Link href="/projects">
-            See all projects
-          </Link>
-        </div>
-        <ul class="flex flex-col gap-4">
-          {projects.map(project => (
-            <li>
-              <ArrowCard entry={project} />
-            </li>
-          ))}
-        </ul>
-      </section>
-
       <section class="animate space-y-4">
         <h5 class="font-semibold text-black dark:text-white">
           Let's Connect
         </h5>
         <article>
           <p>
-            If you want to get in touch with me about something or just to say hi,
-            reach out on social media or send me an email.
+            Whether you have a project in mind or just want to talk tech, feel free to connect via email or social media.
           </p>
         </article>
         <ul class="flex flex-wrap gap-2">
