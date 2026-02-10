@@ -1,6 +1,6 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
-import { HOME } from "@consts";
+import { getHomeMetadata } from "@i18n/metadata";
 
 type Context = {
   site: string
@@ -17,8 +17,8 @@ export async function GET(context: Context) {
     .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
   return rss({
-    title: HOME.TITLE,
-    description: HOME.DESCRIPTION,
+    title: getHomeMetadata("es").TITLE,
+    description: getHomeMetadata("es").DESCRIPTION,
     site: context.site,
     items: items.map((item) => ({
       title: item.data.title,
