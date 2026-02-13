@@ -2,6 +2,12 @@
 import Container from "@components/Container.astro";
 import Link from "@components/Link.astro";
 import { SITE } from "@consts";
+import { useTranslation } from "@i18n/utils";
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { languageList } from "@i18n/ui";
+
+const currentLang = Astro.currentLocale || 'es';
+const translateLabels = useTranslation(currentLang as keyof typeof languageList);
 ---
 
 <header>
@@ -13,20 +19,20 @@ import { SITE } from "@consts";
         </div>
       </Link>
       <nav class="flex gap-1">
-        <!-- <Link href="/blog">
-          blog
+        <!-- <Link href={getRelativeLocaleUrl(currentLang, "/blog")}>
+          {translateLabels("nav.blog")}
         </Link>
         <span>
-          {`/`}
+          {`|`}
         </span> -->
-        <Link href="/projects">
-          projects
+        <Link href={getRelativeLocaleUrl(currentLang, "/projects")}>
+          {translateLabels("nav.projects")}
         </Link>
         <span>
           {`|`}
         </span>
-        <Link href="/work">
-          work
+        <Link href={getRelativeLocaleUrl(currentLang, "/work")}>
+          {translateLabels("nav.work")}
         </Link>
       </nav>
     </div>
