@@ -1,4 +1,5 @@
 ---
+lang: en
 company: "Lowpost"
 role: "Content Writer"
 dateStart: "2016-03-01"

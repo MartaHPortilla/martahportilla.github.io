@@ -1,4 +1,5 @@
 ---
+lang: en
 company: "Nandos (UK)"
 role: "Restaurant Supervisor"
 dateStart: "2017-04-01"

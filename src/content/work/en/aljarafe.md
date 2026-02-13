@@ -1,4 +1,5 @@
 ---
+lang: en
 company: "Noticias Aljarafe"
 role: "Editorial Intern"
 dateStart: "2013-06-01"

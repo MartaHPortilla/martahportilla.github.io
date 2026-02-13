@@ -1,4 +1,5 @@
 ---
+lang: en
 company: "Medina Media Events"
 role: "Communications Specialist"
 dateStart: "2021-04-01"
