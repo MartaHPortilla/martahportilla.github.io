@@ -6,4 +6,11 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://martahportilla.github.io",
   integrations: [mdx(), sitemap(), tailwind()],
+  i18n: {
+    defaultLocale: "es",
+    locales: ["es", "en"],
+    routing: {
+      prefixDefaultLocale: true,
+    },
+  },
 });
