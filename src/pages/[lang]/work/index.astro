@@ -1,0 +1,70 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { dateRange } from "@lib/utils";
+import { getWorkMetadata } from "@i18n/metadata";
+import { getLang } from "@lib/utils";
+
+
+const lang = getLang(Astro.currentLocale);
+const metadata = getWorkMetadata(lang as keyof typeof getWorkMetadata);
+
+const collection = (
+  await getCollection(
+    "work", 
+    ({ data }) =>  
+      { return data.lang === lang; 
+      }
+    )
+  )
+  .sort((a, b) => new Date(b.data.dateStart).valueOf() - new Date(a.data.dateStart).valueOf());
+
+const work = await Promise.all(
+  collection.map(async (item) => {
+    const { Content } = await item.render();
+    return { ...item, Content };
+  })
+);
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: "es" } },
+    { params: { lang: "en" } },
+  ];
+}
+---
+
+<PageLayout title={metadata.TITLE} description={metadata.DESCRIPTION}>
+  <Container>
+    <div class="space-y-10">
+      <div class="animate font-semibold text-black dark:text-white">
+        work
+      </div>
+      <ul class="flex flex-col space-y-4">
+        { 
+          work.map(entry => (
+            <li class="animate">
+              <div class="text-sm opacity-75">
+                {entry.data.dateStart ? dateRange(entry.data.dateStart, entry.data.dateEnd, lang) : "Present"}
+              </div>
+              <div class="font-semibold text-black dark:text-white">
+                {entry.data.company}
+              </div>
+              <div class="text-sm opacity-75">
+                {entry.data.role}
+              </div>
+              <article>
+                <entry.Content />
+              </article>
+            </li>
+          ))
+        }
+      </ul>
+<!-- 
+      <ul class="animate flex flex-col gap-4">
+
+      </ul> -->
+    </div>
+  </Container>
+</PageLayout>
