@@ -1,8 +1,10 @@
 ---
+lang: en
 title: "Metronopy"
 description: "Python tool to create customized audiovisual metronomes"
 date: "Feb 04 2026"
 draft: false
+repoURL: "https://github.com/MartaHPortilla/metronopy"
 ---
 
 **Metronopy** is an open-source **Python tool** that lets you create **custom audiovisual metronomes**, combining **precise audio beats** with **synchronized visual cues**. It's designed for **musicians, educators, and developers** who want a reliable, reusable metronome for practice, teaching, or multimedia projects.
@@ -34,5 +36,3 @@ This project is a **hands-on exploration** of Python multimedia programming, foc
 - **Developers** exploring Python multimedia projects  
 
 Metronopy sits at the intersection of **music, technology, and education**, making it a nice tool for combining **software development with musical creativity**.
-
-**Repository:** [https://github.com/MartaHPortilla/metronopy](https://github.com/MartaHPortilla/metronopy)

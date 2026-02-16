@@ -1,11 +1,11 @@
 ---
+lang: en
 title: "BatukAfina"
 description: "Percussion tuning app for Android"
 date: "Feb 04 2026"
 draft: false
+repoURL: "https://github.com/MartaHPortilla/BatucadaFina"
 ---
-
-## BatukAfina
 
 **BatukAfina** is a **native Android percussion tuning app** built to help musicians achieve accurate and consistent tuning in an intuitive way. Designed for **drummers, percussionists, and music students**, it transforms a traditionally manual process into a **clear, guided digital experience**.
 
@@ -28,5 +28,3 @@ BatukAfina emphasizes:
 - UX tailored to musicians, not engineers  
 
 BatukAfina bridges the gap between **musical intuition and digital precision**, making it ideal for beginners and professionals alike.
-
-**Repository:** [https://github.com/MartaHPortilla/BatucadaFina](https://github.com/MartaHPortilla/BatucadaFina)

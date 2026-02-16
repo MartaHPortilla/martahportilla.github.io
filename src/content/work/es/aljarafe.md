@@ -1,7 +1,7 @@
 ---
 lang: es
 company: "Noticias Aljarafe"
-role: "Editorial Intern"
+role: "Becaria de Redacción"
 dateStart: "2013-06-01"
 dateEnd: "2013-12-01"
 dateLabel: "Jun 2013 - Dec 2013"

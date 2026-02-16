@@ -1,7 +1,7 @@
 ---
 lang: es
 company: "Lowpost"
-role: "Content Writer"
+role: "Redactora de Contenidos"
 dateStart: "2016-03-01"
 dateEnd: "2023-03-01"
 dateLabel: "Mar 2016 - Mar 2023"
