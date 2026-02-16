@@ -23,6 +23,14 @@ export const labels = {
         "home.blog.title": "Últimos artículos",
         "home.blog.cta": "Ver todos los artículos",
 
+        // Projects
+        "projects.title": "proyectos",
+        "projects.back": "Volver a proyectos",
+
+        // Blog
+        "blog.title": "blog",
+        "blog.back": "Volver al blog",
+
         // Back to top
         "back-to-top": "Volver arriba",
     },
@@ -44,6 +52,14 @@ export const labels = {
         // Blog
         "home.blog.title": "Latest posts",
         "home.blog.cta": "See all posts",
+
+        // Projects
+        "projects.title": "projects",
+        "projects.back": "Back to projects",
+
+        // Blog
+        "blog.title": "blog",
+        "blog.back": "Back to blog",
 
         // Back to top
         "back-to-top": "Back to top",

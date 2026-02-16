@@ -31,6 +31,7 @@ const work = defineCollection({
 const projects = defineCollection({
   type: "content",
   schema: z.object({
+    lang: z.enum(["es", "en"]),
     title: z.string(),
     description: z.string(),
     date: z.coerce.date(),
