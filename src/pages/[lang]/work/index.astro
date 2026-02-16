@@ -5,10 +5,11 @@ import Container from "@components/Container.astro";
 import { dateRange } from "@lib/utils";
 import { getWorkMetadata } from "@i18n/metadata";
 import { getLang } from "@lib/utils";
-
+import { useTranslation } from "@i18n/utils";
 
 const lang = getLang(Astro.currentLocale);
-const metadata = getWorkMetadata(lang as keyof typeof getWorkMetadata);
+const translateLabels = useTranslation(lang);
+const metadata = getWorkMetadata(lang);
 
 const collection = (
   await getCollection(
@@ -38,8 +39,8 @@ export async function getStaticPaths() {
 <PageLayout title={metadata.TITLE} description={metadata.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <div class="animate font-semibold text-black dark:text-white">
-        work
+      <div class="animate font-semibold text-black dark:text-white uppercase tracking-widest text-sm opacity-50">
+        {translateLabels("nav.work")}
       </div>
       <ul class="flex flex-col space-y-4">
         { 

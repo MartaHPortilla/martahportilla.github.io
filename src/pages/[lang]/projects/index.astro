@@ -9,8 +9,7 @@ import { getLang } from "@lib/utils";
 const lang = getLang(Astro.currentLocale);
 const metadata = getProjectsMetadata(lang as keyof typeof getProjectsMetadata);
 
-const projects = (await getCollection("projects"))
-  .filter(project => !project.data.draft)
+const projects = (await getCollection("projects", ({ data }) => !data.draft && data.lang === lang))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 export async function getStaticPaths() {
@@ -24,8 +23,8 @@ export async function getStaticPaths() {
 <PageLayout title={metadata.TITLE} description={metadata.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <div class="animate font-semibold text-black dark:text-white">
-        Projects
+      <div class="animate font-semibold text-black dark:text-white uppercase tracking-widest text-sm opacity-50">
+        {metadata.TITLE}
       </div>
       <ul class="animate flex flex-col gap-4">
         {
