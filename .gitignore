@@ -23,6 +23,7 @@ pnpm-debug.log*
 
 # folders and files
 ignore/
+portfolio-tracking/
 
 # Python
 .venv/
