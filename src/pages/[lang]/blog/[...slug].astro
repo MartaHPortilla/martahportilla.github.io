@@ -7,12 +7,13 @@ import { readingTime } from "@lib/utils";
 import BackToPrev from "@components/BackToPrev.astro";
 import { getLang } from "@lib/utils";
 import { getRelativeLocaleUrl } from "astro:i18n";
+import { useTranslation } from "@i18n/utils";
 
 export async function getStaticPaths() {
   const posts = (await getCollection("blog"))
-    .filter(post => !post.data.draft)
+    .filter((post) => !post.data.draft)
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-  return posts.flatMap(project => [
+  return posts.flatMap((project) => [
     {
       params: { lang: "es", slug: project.slug },
       props: project,
@@ -26,6 +27,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const lang = getLang(Astro.currentLocale);
+const t = useTranslation(lang);
 const post = Astro.props;
 const { Content } = await post.render();
 ---
@@ -34,7 +36,7 @@ const { Content } = await post.render();
   <Container>
     <div class="animate">
       <BackToPrev href={getRelativeLocaleUrl(lang, "blog")}>
-        Back to blog
+        {t("blog.back")}
       </BackToPrev>
     </div>
     <div class="space-y-1 my-10">
@@ -44,12 +46,23 @@ const { Content } = await post.render();
         </div>
         &bull;
         <div class="font-base text-sm">
-          {readingTime(post.body)}
+          {readingTime(post.body, lang)}
         </div>
       </div>
       <div class="animate text-2xl font-semibold text-black dark:text-white">
         {post.data.title}
       </div>
+      {
+        post.data.tags && (
+          <div class="animate flex flex-wrap gap-2 mt-4">
+            {post.data.tags.map((tag: string) => (
+              <span class="text-xs px-2 py-1 rounded-md bg-black/5 dark:bg-white/10 text-black/70 dark:text-white/70 font-medium">
+                #{tag}
+              </span>
+            ))}
+          </div>
+        )
+      }
     </div>
     <article class="animate">
       <Content />
