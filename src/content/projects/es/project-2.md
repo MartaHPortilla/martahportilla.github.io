@@ -7,24 +7,25 @@ draft: false
 repoURL: "https://github.com/MartaHPortilla/BatucadaFina"
 ---
 
-**BatukAfina** es una **aplicación nativa de Android para la afinación de percusión**, creada para ayudar a los músicos a lograr una afinación precisa y constante de manera intuitiva. Diseñada para **bateristas, percusionistas y estudiantes de música**, transforma un proceso tradicionalmente manual en una **experiencia digital clara y guiada**.
+**BatukAfina** nació de la unión de mis dos grandes pasiones: la percusión y el desarrollo móvil. Como percusionista, sé que afinar un tambor es casi un arte que depende del oído y la experiencia, pero como desarrolladora, sentía que nos faltaba una herramienta que aportara esa confirmación visual y precisa que a veces necesitas antes de subir al escenario.
 
-La afinación de instrumentos de percusión a menudo depende del entrenamiento auditivo y la experiencia. BatukAfina complementa esa habilidad proporcionando **análisis de audio en tiempo real y retroalimentación visual**, ayudando a los usuarios a entender el tono, la tensión y el equilibrio en sus instrumentos.
+Esta aplicación no pretende sustituir al oído, sino complementarlo. A través de un análisis de audio en tiempo real, BatukAfina te ayuda a entender la relación entre la tensión del parche y el tono, transformando un proceso manual en algo mucho más intuitivo y digital.
 
-### Características Principales
+## Características principales
 
-- Afina tambores individuales o sets completos de percusión  
-- Indicadores visuales para ajustes de tono y tensión  
-- Guarda y recupera preajustes de afinación personalizados  
-- Interfaz ligera, receptiva y libre de distracciones  
+Mi prioridad era crear algo funcional y sin distracciones para el músico:
 
-### Enfoque Técnico
+- **Análisis en tiempo real**: Visualiza la frecuencia y el tono exacto de cada tambor.
+- **Guía de tensión**: Indicadores claros para ayudarte a equilibrar el parche.
+- **Preajustes personalizados**: Guarda los ajustes de tu set de percusión para que la próxima afinación sea cuestión de segundos.
+- **Interfaz "Music-first"**: Diseñada para ser usada en el local de ensayo, rápida y receptiva.
 
-BatukAfina destaca por:
+## Enfoque técnico
 
-- **Desarrollo nativo de Android** usando Kotlin y Java  
-- Arquitectura limpia con patrones modernos (**MVVM, Jetpack**)  
-- Comportamiento offline y rendimiento ligero  
-- UX diseñada para músicos, no para ingenieros  
+Para este proyecto, mi objetivo era la excelencia técnica en el ecosistema Android:
 
-BatukAfina cierra la brecha entre la **intuición musical y la precisión digital**, siendo ideal tanto para principiantes como para profesionales.
+- **Desarrollo nativo total**: Escrita en Kotlin y Java para aprovechar al máximo el rendimiento del sistema.
+- **Arquitectura robusta**: Implementada con patrones MVVM y componentes de Android Jetpack para garantizar que el código sea mantenible y escalable.
+- **Eficiencia y privacidad**: Funciona totalmente offline y es muy ligera, porque en un ensayo no deberías preocuparte por la conexión a internet ni por el consumo de batería.
+
+BatukAfina es mi forma de cerrar la brecha entre la intuición musical y la precisión que solo el software bien construido puede ofrecer.

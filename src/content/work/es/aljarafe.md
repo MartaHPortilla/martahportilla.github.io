@@ -8,4 +8,4 @@ dateLabel: "Jun 2013 - Dec 2013"
 ---
 
 
-Creación de contenido para publicaciones impresas y digitales. Realización de entrevistas con representantes locales y líderes empresariales.
+Mis primeros pasos en el mundo de la comunicación profesional tuvieron lugar en esta redacción comarcal. Aquí aprendí que detrás de cada titular hay una labor de campo irrefutable, realizando entrevistas a figuras clave y líderes empresariales para capturar el latido de la comunidad y transformarlo en historias con impacto, tanto en papel como en digital.

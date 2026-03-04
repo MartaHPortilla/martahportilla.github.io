@@ -1,38 +1,31 @@
 ---
 lang: es
 title: "Metronopy"
-description: "Herramienta Python para crear metrónomos audiovisuales personalizados"
+description: "Herramienta Python para crear metrónomos audiovisuales con sincronía perfecta"
 date: "Feb 04 2026"
 draft: false
 repoURL: "https://github.com/MartaHPortilla/metronopy"
 ---
 
-**Metronopy** es una **herramienta de Python** de código abierto que te permite crear **metrónomos audiovisuales personalizados**, combinando **pulsos de audio precisos** con **indicadores visuales sincronizados**. Está diseñada para **músicos, educadores y desarrolladores** que buscan un metrónomo fiable y reutilizable para prácticas, enseñanza o proyectos multimedia.
+**Metronopy** nació de una necesidad muy personal: como alguien que vive entre la música y el código, me frustraba no encontrar una herramienta ~~gratuita~~ sencilla que generara metrónomos en vídeo con una sincronía matemática. Así que decidí construirla yo misma usando **Python**.
 
-A diferencia de los metrónomos tradicionales, Metronopy produce una **salida de video determinista**, asegurando que cada pulso y marcador visual esté perfectamente alineado, lo cual es ideal para **referencias rítmicas de alta calidad y contenido instructivo**.
+A diferencia de los metrónomos convencionales, Metronopy no solo suena; genera un **archivo de vídeo determinista**. Esto significa que cada pulso y cada indicador visual están perfectamente alineados, cuadro por cuadro, algo fundamental para crear contenido educativo de calidad o referencias rítmicas infalibles.
 
-## Características de Metronopy
+## Lo que puedes hacer con Metronopy
 
-- Genera **secuencias de metrónomo como archivos de video**  
-- Control de **tempo, compás y duración total**  
-- Salida determinista que asegura **reproducibilidad y precisión**  
-- Separación clara entre la **lógica central y la infraestructura**  
+No quería un sistema complejo, sino algo que hiciera una sola cosa de forma impecable:
 
-## Por qué destaca Metronopy
+- Generar secuencias de metrónomo directamente en formato vídeo.
+- Configurar el **tempo, compás y duración** total a medida.
+- Garantizar una precisión absoluta gracias a su salida determinista.
+- Disfrutar de un código **modular y bien documentado**, fácil de extender.
 
-Metronopy fue construido siguiendo **mejores prácticas de ingeniería de software**:
+## Bajo el capó
 
-- Lógica de dominio **limpia y explícita**  
-- Diseño modular para un **mantenimiento y extensión fáciles**  
-- Código bien documentado para **desarrolladores de todos los niveles**  
-- Comportamiento determinista, perfecto para **pruebas y aprendizaje**  
+Este proyecto fue mi campo de entrenamiento para aplicar **mejores prácticas de arquitectura**:
 
-Este proyecto es una **exploración práctica** de la programación multimedia con Python, centrándose en la **generación de video, sincronización de sonido y arquitectura mantenible** en lugar de usar pesados frameworks.
+- He mantenido la lógica de dominio separada de la infraestructura, buscando esa **sobriedad y limpieza** que tanto valoro.
+- El diseño es modular, pensado para que otros desarrolladores (o yo misma en el futuro) puedan añadir nuevas funcionalidades sin romper nada.
+- Me he centrado en la generación de vídeo y sincronización de audio sin recurrir a frameworks pesados, manteniendo la herramienta ligera y eficiente.
 
-## Quién puede beneficiarse
-
-- **Músicos** que buscan referencias rítmicas precisas  
-- **Educadores musicales** que crean videos instructivos  
-- **Desarrolladores** que exploran proyectos multimedia con Python  
-
-Metronopy se sitúa en la intersección de la **música, la tecnología y la educación**, convirtiéndola en una excelente herramienta para combinar el **desarrollo de software con la creatividad musical**.
+Al final, Metronopy es el fiel reflejo de mi forma de entender el software: una solución técnica sólida que nace de una inquietud creativa. Si eres músico, educador o simplemente te apasiona el desarrollo con Python, espero que te sea tan útil como lo es para mí.

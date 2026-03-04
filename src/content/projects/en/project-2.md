@@ -1,30 +1,31 @@
 ---
 lang: en
 title: "BatukAfina"
-description: "Percussion tuning app for Android"
+description: "A native Android app for precision percussion tuning"
 date: "Feb 04 2026"
 draft: false
 repoURL: "https://github.com/MartaHPortilla/BatucadaFina"
 ---
 
-**BatukAfina** is a **native Android percussion tuning app** built to help musicians achieve accurate and consistent tuning in an intuitive way. Designed for **drummers, percussionists, and music students**, it transforms a traditionally manual process into a **clear, guided digital experience**.
+**BatukAfina** is the result of bringing my two worlds together: percussion and Android development. As a percussionist, I know that tuning a drum is an art that relies heavily on ear and experience. But as a developer, I felt there was a need for a tool that provided that extra bit of visual certainty and precision you sometimes want before hitting the stage.
 
-Tuning percussion instruments often relies on ear training and experience. BatukAfina complements that skill by providing **real-time audio analysis and visual feedback**, helping users understand pitch, tension, and balance across their instruments.
+This app isn't meant to replace your ear; it’s there to back it up. Using real-time audio analysis, BatukAfina helps you understand the connection between head tension and pitch, turning a manual process into a clear, guided digital experience.
 
-### Key Features
+## Key Features
 
-- Tune individual drums or full percussion setups  
-- Visual indicators for pitch and tension adjustments  
-- Save and recall custom tuning presets  
-- Lightweight, responsive, and distraction-free interface  
+My priority was to build something focused and distraction-free for the working musician:
 
-### Technical Approach
+- **Real-time analysis**: See the exact frequency and pitch of every strike.
+- **Tension guidance**: Visual cues to help you achieve a perfectly balanced drumhead.
+- **Custom presets**: Save your favorite setups so you can get back to your signature sound in seconds.
+- **"Music-first" UI**: Built for the rehearsal room—lightweight, responsive, and easy to use.
 
-BatukAfina emphasizes:
+## Technical Focus
 
-- **Native Android development** using Kotlin and Java  
-- Clean architecture with modern patterns (**MVVM, Jetpack**)  
-- Offline-first behavior and lightweight performance  
-- UX tailored to musicians, not engineers  
+For this project, I doubled down on Android development best practices:
 
-BatukAfina bridges the gap between **musical intuition and digital precision**, making it ideal for beginners and professionals alike.
+- **Fully native**: Built with Kotlin and Java for maximum performance and a seamless OS feel.
+- **Clean Architecture**: Implemented with MVVM and Android Jetpack components to ensure the codebase remains maintainable and robust.
+- **Privacy and Efficiency**: It’s an offline-first app, meaning it works anywhere from basement studios to festival stages without needing a connection.
+
+BatukAfina is how I bridge the gap between musical intuition and the precision that only well-crafted software can provide.

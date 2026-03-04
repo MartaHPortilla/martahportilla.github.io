@@ -3,10 +3,10 @@ title: Home
 slug: "home.es"
 ---
 
-#### Hola, soy Marta 👋
+## Hola, soy Marta 👋
 
-Soy desarrolladora de software con experiencia previa en comunicación y escritura creativa. Actualmente estoy centrada en el desarrollo de aplicaciones multiplataforma. Trabajo principalmente con Kotlin, Java, Python y tecnologías Android, creando aplicaciones limpias, estructuradas y mantenibles.
+Soy una mente curiosa por naturaleza y, sobre todo, una escritora que ha encontrado en el código un nuevo lenguaje para contar historias. Mi formación en periodismo y escritura creativa no es solo un vestigio de mi pasado, sino el prisma a través del cual abordo cada proyecto: con una obsesión casi académica por la claridad, la estructura y la elegancia narrativa.
 
-Mi experiencia combina el desarrollo nativo de Android, la programación orientada a objetos y patrones de arquitectura modernos como MVVM. Me interesan especialmente el código bien documentado, los requisitos claros y los proyectos donde el diseño de software y la resolución de problemas realmente importen.
+Desde mi perspectiva, el software, al igual que la literatura, nace de una necesidad humana y debe ser capaz de contar la historia de cada usuario. Por eso, aunque mi base técnica es sólida —forjada entre Java, Kotlin y arquitecturas Android—, me muevo con la fluidez de quien entiende que la tecnología es un medio, no un fin. Mi paso por Inglaterra me enseñó dos lecciones irrefutables: la humildad que supone vivir en un país que no es el propio y la capacidad de liderar equipos en entornos de alta demanda.
 
-Actualmente estoy abierta a oportunidades de aprendizaje y prácticas, donde pueda crecer como desarrolladora mientras contribuyo a proyectos reales e impactantes en entornos colaborativos e internacionales.
+Actualmente disfruto explorando la transversalidad de la programación —desde Python hasta JavaScript— mientras persigo la sobriedad de las arquitecturas limpias y el código bien documentado. No busco simplemente "hacer que funcione", sino edificar sistemas robustos que sean, en esencia, coherentes y mantenibles. Mis proyectos son el lienzo donde intento aplicar esta visión única: técnica en la ejecución, pero profundamente humana y narrativa en su concepción.

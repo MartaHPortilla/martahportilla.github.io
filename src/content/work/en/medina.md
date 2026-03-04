@@ -7,5 +7,4 @@ dateEnd: "2021-11-20"
 dateLabel: "Apr 2021 - Nov 2021"
 ---
 
-
-Supported international sponsorship efforts for large-scale events. Coordinated digital communication, campaign execution, and branding tasks.
+In the fast-paced world of large-scale international events, I focused on bridging the gap between global brands and their audience. I collaborated on digital campaigns and branding initiatives, supporting sponsorship management in an environment where clear communication and strategic agility are key to a successful event.

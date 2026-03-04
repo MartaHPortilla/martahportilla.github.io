@@ -8,4 +8,4 @@ dateLabel: "Apr 2021 - Nov 2021"
 ---
 
 
-Apoyo en la gestión de patrocinios internacionales para eventos de gran escala. Coordinación de comunicación digital, ejecución de campañas y tareas de branding.
+En el epicentro de eventos internacionales de gran escala, mi rol consistió en tejer la red de comunicación que une a las marcas con su audiencia. Trabajé en campañas digitales y branding, apoyando la gestión de patrocinios globales en un entorno donde la precisión comunicativa y la agilidad estratégica son fundamentales para el éxito del evento.

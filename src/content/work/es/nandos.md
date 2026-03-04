@@ -8,4 +8,4 @@ dateLabel: "Apr 2017 - Mar 2021"
 ---
 
 
-Liderazgo y formación de equipos en entornos de servicio de ritmo rápido. Supervisión de inventario y contribución a mejoras operativas.
+Mi estancia en Inglaterra supuso un máster en gestión operativa y liderazgo bajo presión. Al frente de equipos dinámicos, aprendí a liderar a través del ejemplo, supervisando balances y optimizando procesos en un entorno de alta demanda donde cada decisión cuenta. Fue aquí donde forjé mi capacidad para gestionar la intensidad con profesionalidad y pulcritud.

@@ -8,4 +8,4 @@ dateLabel: "Mar 2016 - Mar 2023"
 ---
 
 
-Producción de contenido digital en inglés y español para diversos sectores. Gestión de investigación, documentación y entrega bajo plazos estrictos.
+Durante algunos años, perfeccioné el arte de la versatilidad narrativa, produciendo contenido estratégico en español e inglés para sectores de lo más diversos. Mi labor no se limitaba a escribir: gestionaba procesos complejos de investigación y documentación, garantizando una entrega impecable bajo la presión de plazos estrictos y una demanda constante de calidad.
