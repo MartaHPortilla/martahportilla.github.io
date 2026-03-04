@@ -4,7 +4,7 @@ title: "BatukAfina"
 description: "App de afinación de percusión para Android"
 date: "Feb 04 2026"
 draft: false
-repoURL: "https://github.com/MartaHPortilla/BatucadaFina"
+#repoURL: "https://github.com/MartaHPortilla/BatucadaFina"
 ---
 
 **BatukAfina** nació de la unión de mis dos grandes pasiones: la percusión y el desarrollo móvil. Como percusionista, sé que afinar un tambor es casi un arte que depende del oído y la experiencia, pero como desarrolladora, sentía que nos faltaba una herramienta que aportara esa confirmación visual y precisa que a veces necesitas antes de subir al escenario.

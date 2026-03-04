@@ -4,7 +4,7 @@ title: "Metronopy"
 description: "A Python tool for creating perfectly synced audiovisual metronomes"
 date: "Feb 04 2026"
 draft: false
-repoURL: "https://github.com/MartaHPortilla/metronopy"
+#repoURL: "https://github.com/MartaHPortilla/metronopy"
 ---
 
 **Metronopy** was born out of a simple frustration: I needed a reliable way to generate video metronomes with perfect audiovisual sync, but couldn't find a lightweight tool that did exactly that. So, I decided to bridge the gap between my love for music and Python by building it myself.

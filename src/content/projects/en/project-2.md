@@ -4,7 +4,7 @@ title: "BatukAfina"
 description: "A native Android app for precision percussion tuning"
 date: "Feb 04 2026"
 draft: false
-repoURL: "https://github.com/MartaHPortilla/BatucadaFina"
+#repoURL: "https://github.com/MartaHPortilla/BatucadaFina"
 ---
 
 **BatukAfina** is the result of bringing my two worlds together: percussion and Android development. As a percussionist, I know that tuning a drum is an art that relies heavily on ear and experience. But as a developer, I felt there was a need for a tool that provided that extra bit of visual certainty and precision you sometimes want before hitting the stage.

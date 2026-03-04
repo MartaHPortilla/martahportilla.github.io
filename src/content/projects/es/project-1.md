@@ -4,7 +4,7 @@ title: "Metronopy"
 description: "Herramienta Python para crear metrónomos audiovisuales con sincronía perfecta"
 date: "Feb 04 2026"
 draft: false
-repoURL: "https://github.com/MartaHPortilla/metronopy"
+#repoURL: "https://github.com/MartaHPortilla/metronopy"
 ---
 
 **Metronopy** nació de una necesidad muy personal: como alguien que vive entre la música y el código, me frustraba no encontrar una herramienta ~~gratuita~~ sencilla que generara metrónomos en vídeo con una sincronía matemática. Así que decidí construirla yo misma usando **Python**.
