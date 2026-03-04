@@ -7,7 +7,7 @@ draft: false
 #repoURL: "https://github.com/MartaHPortilla/metronopy"
 ---
 
-**Metronopy** was born out of a simple frustration: I needed a reliable way to generate video metronomes with perfect audiovisual sync, but couldn't find a lightweight tool that did exactly that. So, I decided to bridge the gap between my love for music and Python by building it myself.
+[**Metronopy**](https://github.com/MartaHPortilla/metronopy) was born out of a simple frustration: I needed a reliable way to generate video metronomes with perfect audiovisual sync, but couldn't find a lightweight tool that did exactly that. So, I decided to bridge the gap between my love for music and Python by building it myself.
 
 Unlike traditional metronomes, Metronopy doesn't just click—it produces a **deterministic video output**. This ensures that every beat and visual cue is perfectly aligned, frame by frame, making it an ideal tool for high-quality instructional content or rock-solid rhythm references.
 
@@ -28,4 +28,4 @@ This project served as my playground for applying **software architecture best p
 - The design is modular, built with future maintenance and expansion in mind.
 - I focused on pure video generation and audio sync without relying on heavy frameworks, keeping the tool lean and efficient.
 
-Ultimately, Metronopy is a reflection of my approach to software: a solid technical solution born from a creative spark. Whether you are a musician, an educator, or a developer exploring Python, I hope you find it as useful as I do.
+Ultimately, [**Metronopy**](https://github.com/MartaHPortilla/metronopy) is a reflection of my approach to software: a solid technical solution born from a creative spark. Whether you are a musician, an educator, or a developer exploring Python, I hope you find it as useful as I do.

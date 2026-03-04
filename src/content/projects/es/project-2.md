@@ -7,7 +7,7 @@ draft: false
 #repoURL: "https://github.com/MartaHPortilla/BatucadaFina"
 ---
 
-**BatukAfina** nació de la unión de mis dos grandes pasiones: la percusión y el desarrollo móvil. Como percusionista, sé que afinar un tambor es casi un arte que depende del oído y la experiencia, pero como desarrolladora, sentía que nos faltaba una herramienta que aportara esa confirmación visual y precisa que a veces necesitas antes de subir al escenario.
+**[BatukAfina](https://github.com/MartaHPortilla/BatucadaFina)** nació de la unión de mis dos grandes pasiones: la percusión y el desarrollo móvil. Como percusionista, sé que afinar un tambor es casi un arte que depende del oído y la experiencia, pero como desarrolladora, sentía que nos faltaba una herramienta que aportara esa confirmación visual y precisa que a veces necesitas antes de subir al escenario.
 
 Esta aplicación no pretende sustituir al oído, sino complementarlo. A través de un análisis de audio en tiempo real, BatukAfina te ayuda a entender la relación entre la tensión del parche y el tono, transformando un proceso manual en algo mucho más intuitivo y digital.
 
@@ -28,4 +28,4 @@ Para este proyecto, mi objetivo era la excelencia técnica en el ecosistema Andr
 - **Arquitectura robusta**: Implementada con patrones MVVM y componentes de Android Jetpack para garantizar que el código sea mantenible y escalable.
 - **Eficiencia y privacidad**: Funciona totalmente offline y es muy ligera, porque en un ensayo no deberías preocuparte por la conexión a internet ni por el consumo de batería.
 
-BatukAfina es mi forma de cerrar la brecha entre la intuición musical y la precisión que solo el software bien construido puede ofrecer.
+[**BatukAfina**](https://github.com/MartaHPortilla/BatucadaFina) es mi forma de cerrar la brecha entre la intuición musical y la precisión que solo el software bien construido puede ofrecer.
