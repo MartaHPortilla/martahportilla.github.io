@@ -1,34 +1,35 @@
 ---
-title: "Projects Collection"
-description: "How to add projects to your portfolio."
-date: "Mar 20 2024"
+title: "Blog Collection"
+description: "How to add posts to your blog."
+date: "Mar 21 2024"
 draft: true
+lang: "es"
 ---
 
-The `projects` collections is found in `src/content/projects`.
+The `blog` collections is found in `src/content/blog`.
 
-Working with the `projects` collection:
+Working with the `blog` collection:
 
 ```
-📁 /src/content/projects
-└── 📁 project-1
+📁 /src/content/blog
+└── 📁 post-1
       └── 📄 index.md
-└── 📁 projects-2
+└── 📁 post-2
       └── 📄 index.mdx
 ```
 
 In the above example, two static pages will be generated, based on the existence of a classic markdown `.md` file or a jsx compatible markdown `.mdx` file. The folder name represents the slug:
 
-- `https://example.com/projects/project-1`
-- `https://example.com/projects/project-2`
+- `https://example.com/blog/post-1`
+- `https://example.com/blog/post-2`
 
 
 All content must be preceded by required metadata in the markdown file in `yaml` format, and be enclosed by triple dashes. --- ---
 
 ```mdx
 ---
-title: "My awesome project"
-description: "A description of my project."
+title: "My cool new title"
+description: "A description of my content."
 date: "Mar 22 2024"
 draft: false
 ---
@@ -41,23 +42,21 @@ Metadata fields
 | title       | Yes | string  | Title of the content. Used in SEO and RSS.       |
 | description | Yes | string  | Description of the content. Used in SEO and RSS. |
 | date        | Yes | string  | Must be a valid date string (able to be parsed). |
-| draft       | No  | boolean | draft: true, content will not be published.      |
-| demoURL     | No  | string  | Link to live project demo, if applicable.        |
-| repoURL     | No  | string  | Link to project repo, if applicable.             |
+| draft       | No* | boolean | draft: true, content will not be published.      |
 
 All that's left to do is write your content under the metadata.
 
 ```mdx
 ---
-title: "My awesome project"
-description: "A description of my project."
+title: "My cool new title"
+description: "A description of my content."
 date: "Mar 22 2024"
 draft: false
 ---
 
 ### Woot
 
-This is a paragraph about my project.
+This is a paragraph.
 ```
 
-🎉 Congrats, you are now a blogger, _and_ developer.
+🎉 Congrats, you are now a blogger.

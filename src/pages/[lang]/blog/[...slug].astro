@@ -11,18 +11,15 @@ import { useTranslation } from "@i18n/utils";
 
 export async function getStaticPaths() {
   const posts = (await getCollection("blog"))
-    .filter((post) => !post.data.draft)
+    .filter((post) => !post.data.draft || import.meta.env.DEV) // Visualize drafts in dev mode
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-  return posts.flatMap((project) => [
-    {
-      params: { lang: "es", slug: project.slug },
-      props: project,
-    },
-    {
-      params: { lang: "en", slug: project.slug },
-      props: project,
-    },
-  ]);
+  return posts.map((post) => {
+    const slugWithoutLang = post.slug.split("/").slice(1).join("/");
+    return {
+      params: { lang: post.data.lang, slug: slugWithoutLang },
+      props: post,
+    };
+  });
 }
 type Props = CollectionEntry<"blog">;
 
