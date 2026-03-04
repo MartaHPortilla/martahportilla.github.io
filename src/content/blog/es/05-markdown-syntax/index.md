@@ -183,7 +183,7 @@ Use the `![title](./image.*)` pattern relative to the same folder as the markdow
 ![Square Pants](./spongebob.webp)
 ```
 
-![Square Pants](./spongebob.webp)
+![Square Pants](/spongebob.webp)
 
 ---
 
